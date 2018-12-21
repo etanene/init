@@ -1,0 +1,1 @@
+ping slash16.org -c1 | awk '/bytes from/{print $4}' | awk -F'[:]' '{print $1}'

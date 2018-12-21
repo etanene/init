@@ -1,1 +1,2 @@
-ifconfig -av | awk '/broadcast/{print $6}'
+ifconfig en0 | awk '/broadcast/{print $6}'
+ifconfig en0 | awk '/broadcast/{print $6}' | xargs ping -c5 | awk '/bytes from/{print $4}' | awk -F'[:]' '{print $1}' | sort | uniq
