@@ -1,1 +1,6 @@
-ping slash16.org -c1 | awk '/bytes from/{print $4}' | awk -F'[:]' '{print $1}'
+# Identify the IP address of the DNS that responds to the following url: slash16.org
+
+nslookup slash16.org | awk '/Server/{print $2}'
+
+# nslookup - program to query Internet domain name servers
+# field Server: IP address of DNS for this domain name

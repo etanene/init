@@ -1,1 +1,5 @@
+# Find the IP that was assigned to you by dhcp server
+
 ifconfig en0 | awk '/inet /{print $2}'
+
+# your address in field inet

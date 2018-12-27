@@ -1,1 +1,8 @@
-du -h /var/*
+# Figure out the exact size of each folder of /var in a humanly understandable way
+# followed by the path of it.
+
+du -hs /var/*
+
+# du estimate file space usage
+# -h - print sizes in human readable format
+# -s - display only a total for each argument

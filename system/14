@@ -1,1 +1,7 @@
+# Run the ‘tail -f /var/log/syslog‘ command in background
+
 sudo tail -f /var/log/syslog &
+
+# add & at the end of command
+# or run command and stop it with ctrl^Z then use bg %1
+# use jobs -l to display background tasks

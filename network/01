@@ -1,1 +1,7 @@
+# Get the list of the network interfaces of the machine without displaying any detail
+# for these interfaces. Only the list of names.
+
 ifconfig -l
+
+# ifconfig - configure a network interfaces
+# -l to list all available interfaces

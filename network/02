@@ -1,2 +1,11 @@
+# Identify and display the Ethernet interface characteristics:
+
+# a) Indentify broadcast address:
+
 ifconfig en0 | awk '/broadcast/{print $6}'
-ifconfig en0 | awk '/broadcast/{print $6}' | xargs ping -c5 | awk '/bytes from/{print $4}' | awk -F'[:]' '{print $1}' | sort | uniq
+
+# b) Indentify all IP adresses which are part of the same subnet:
+
+ifconfig en0 | awk '/broadcast/{print $6}' | xargs ping -c3 | awk '/bytes from/{print $4}' | awk -F'[:]' '{print $1}' | sort | uniq
+
+# ping broadcast address to get all addresses of our subnet

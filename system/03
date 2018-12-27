@@ -1,3 +1,4 @@
-/etc/hostname
+# What file has to be modified to make it permanent?
 
-/etc/hosts
+# /etc/hostname
+# /etc/hosts

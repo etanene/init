@@ -1,1 +1,5 @@
+# Name the command that find, in real time, currently running processes
+
 top
+
+# top - display linux processes

@@ -1,3 +1,4 @@
-ssh -p 2222 username@192.168.21.34
+# Explain how connect yourself as new user. (With graphic session and ssh session)
 
-just change user on graphic session
+# ssh -p 2222 username@192.168.21.34
+# just change user on graphic session

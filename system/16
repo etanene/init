@@ -1,1 +1,9 @@
+# Find the service which makes it possible to run specific tasks following a regular
+# schedule
+
 crontab
+
+# crontab - program used to install, remove or list the tables used to drive cron daemon
+# -l - display current table
+# -e - used to edit table
+# -r - used to remove table

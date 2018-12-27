@@ -1,1 +1,5 @@
+# List all real users on the VM
+
 cat /etc/passwd | grep /home | awk -f'[:]' '{print $1}'
+
+# real users have a home directory

@@ -1,1 +1,6 @@
-whois slash16.org | awk '/Name Server/'
+# Find the provider of slash16.org
+
+# nslookup slash16.org
+# peek some address of specified domain name
+# whois (this address)
+# you will see operator

@@ -1,1 +1,5 @@
+# Find the command that list all packages
+
 apt list --installed
+
+#apt - commandline interface for package management system

@@ -1,1 +1,7 @@
-cat /etc/ssh/ssh_host_rsa_key.pub
+# What file contains the RSA keys of systems that are authorized to connect via SSH?
+
+# for system
+# cat /etc/ssh/ssh_host_rsa_key.pub
+
+# for current user
+# cat ~/.ssh/authorized_keys

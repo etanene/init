@@ -1,1 +1,6 @@
+# Find the command that kills the background command’s process
+
 sudo kill pid
+
+# use jobs -l to see PID and use kill PID
+# or use fg %(num process) to go to process execution and terminate it with ctrl^C

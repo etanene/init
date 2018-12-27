@@ -1,1 +1,8 @@
+# Identifiy the default gateway in the routing table
+
 netstat -rn -f inet | awk '/default/{print $2}'
+
+# netstat - print networl connections, routing tables....
+# -r to display routing tables
+# -n to show numerical addresses
+# -f to show only inet family addresses

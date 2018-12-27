@@ -1,1 +1,7 @@
+# Find the command that kills ssh service
+
 sudo kill (ssh pid)
+
+# cat /var/run/sshd.pid to find pid
+# or if want to stop ssh service
+# use sudo service ssh stop

@@ -1,1 +1,5 @@
+# Find the external IP of 42.fr
+
 163.172.250.13
+
+# just ping 42.fr or nslookup 42.fr

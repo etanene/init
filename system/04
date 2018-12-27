@@ -1,1 +1,6 @@
+# What command gives you the time since your system was last booted?
+
 who -b
+
+# who information about users who are currently logged information
+# -b   time of last system boot
