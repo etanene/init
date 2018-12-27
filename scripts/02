@@ -1,0 +1,4 @@
+#!/bin/bash
+
+killall -s 9 -u $1
+userdel -r -f $1

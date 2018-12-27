@@ -1,0 +1,1 @@
+cat /etc/passwd | awk -f'[:]' '{print $1}'

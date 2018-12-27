@@ -1,0 +1,9 @@
+#!/bin/bash
+
+login=$(who | grep -i "$1 " | awk '{print $1}' | uniq)
+if [ -z $login ]
+then
+echo "$1 is not logged in."
+else
+echo "$1 is logged in."
+fi

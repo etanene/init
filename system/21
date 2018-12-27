@@ -1,0 +1,1 @@
+cat /etc/passwd | grep /home | awk -f'[:]' '{print $1}'
